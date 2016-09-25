@@ -228,6 +228,25 @@
     }
   },
   {
+    "_id": "MeetupAppES-Dashboard-5",
+    "_type": "dashboard",
+    "_source": {
+      "title": "MeetupAppES Dashboard 5",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"id\":\"MeetupRsvpAppES-desglose-resultados\",\"type\":\"visualization\",\"panelIndex\":1,\"size_x\":12,\"size_y\":5,\"col\":1,\"row\":1}]",
+      "optionsJSON": "{\"darkTheme\":false}",
+      "uiStateJSON": "{}",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-7d",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"analyze_wildcard\":true,\"query\":\"*\"}}}]}"
+      }
+    }
+  },
+  {
     "_id": "WordAppES:-Matches-by-rule",
     "_type": "visualization",
     "_source": {
@@ -434,6 +453,20 @@
       "version": 1,
       "kibanaSavedObjectMeta": {
         "searchSourceJSON": "{\"index\":\"topic-wordcountapp\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
+      }
+    }
+  },
+  {
+    "_id": "MeetupRsvpAppES-desglose-resultados",
+    "_type": "visualization",
+    "_source": {
+      "title": "MeetupRsvpAppES - desglose resultados",
+      "visState": "{\"title\":\"New Visualization\",\"type\":\"table\",\"params\":{\"perPage\":10,\"showPartialRows\":false,\"showMeticsAtAllLevels\":false},\"aggs\":[{\"id\":\"1\",\"type\":\"count\",\"schema\":\"metric\",\"params\":{\"customLabel\":\"Matches\"}},{\"id\":\"2\",\"type\":\"terms\",\"schema\":\"split\",\"params\":{\"field\":\"rule_name\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Matches by topic\",\"row\":true}},{\"id\":\"3\",\"type\":\"terms\",\"schema\":\"bucket\",\"params\":{\"field\":\"result\",\"size\":5,\"order\":\"desc\",\"orderBy\":\"1\",\"customLabel\":\"Resultado\"}}],\"listeners\":{}}",
+      "uiStateJSON": "{}",
+      "description": "",
+      "version": 1,
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"index\":\"topic-meetuprsvp\",\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}},\"filter\":[]}"
       }
     }
   }
