@@ -1,0 +1,17 @@
+{
+    "_id" : ObjectId("57d8508319cdb736664ead1f"),
+    "topic" : "topic-wordapp",
+    "desc" : "Aplicación WordApp. Reglas aplicadas a palabras",
+    "stages" : [ 
+        {
+            "stage" : "stage1",
+            "desc" : "Cada palabra del mensaje de entrada",
+            "fields" : [ 
+                {
+                    "name" : "word",
+                    "typ" : "String"
+                }
+            ]
+        }
+    ]
+}

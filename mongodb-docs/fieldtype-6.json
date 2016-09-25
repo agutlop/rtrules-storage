@@ -1,0 +1,14 @@
+{
+    "_id" : ObjectId("57e7263c02e5f58da5e0d293"),
+    "tipo" : "Boolean",
+    "oper" : [ 
+        {
+            "cod" : "==",
+            "desc" : "igual que"
+        }, 
+        {
+            "cod" : "!=",
+            "desc" : "distinto que"
+        }
+    ]
+}

@@ -1,0 +1,7 @@
+{
+    "_id" : ObjectId("57af624b55860306781169cd"),
+    "tipo" : "OR",
+    "desc" : "Operador lógico OR",
+    "conds" : 0.0,
+    "leaf" : 0.0
+}

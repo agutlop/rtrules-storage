@@ -1,0 +1,38 @@
+{
+    "_id" : ObjectId("57e4576202e5f58da5e0d290"),
+    "name" : "meetup-respuesta si",
+    "desc" : "respuesta si y en españa",
+    "topic" : "topic-meetuprsvp",
+    "stage" : "stage1",
+    "flag" : true,
+    "user" : "default_user",
+    "cond" : {
+        "op" : "AND",
+        "conns" : [ 
+            {
+                "op" : "LEAF",
+                "conns" : [],
+                "leaf" : {
+                    "operador" : "equals",
+                    "field" : "response",
+                    "value" : "yes",
+                    "tipo" : "String"
+                }
+            }, 
+            {
+                "op" : "LEAF",
+                "conns" : [],
+                "leaf" : {
+                    "operador" : "equals",
+                    "field" : "group.group_country",
+                    "value" : "es",
+                    "tipo" : "String"
+                }
+            }
+        ]
+    },
+    "action" : "FIELDS",
+    "actionFields" : [ 
+        "event.event_name"
+    ]
+}

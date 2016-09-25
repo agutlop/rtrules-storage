@@ -1,0 +1,23 @@
+{
+    "_id" : ObjectId("57e40f5f02e5f58da5e0d28d"),
+    "name" : "WordCountApp - hola",
+    "desc" : "Palabra hola",
+    "topic" : "topic-wordcountapp",
+    "stage" : "stage1",
+    "flag" : true,
+    "user" : "default_user",
+    "cond" : {
+        "op" : "LEAF",
+        "conns" : [],
+        "leaf" : {
+            "operador" : "equals",
+            "field" : "word",
+            "value" : "hola",
+            "tipo" : "String"
+        }
+    },
+    "action" : "MESSAGE",
+    "actionFields" : [ 
+        ""
+    ]
+}

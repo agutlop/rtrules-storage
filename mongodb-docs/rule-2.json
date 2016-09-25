@@ -1,0 +1,24 @@
+{
+    "_id" : ObjectId("57d867cf19cdb736664ead22"),
+    "name" : "WordApp - adios",
+    "desc" : "Encontrar palabra adios",
+    "topic" : "topic-wordapp",
+    "stage" : "stage1",
+    "flag" : true,
+    "user" : "default user",
+    "cond" : {
+        "op" : "LEAF",
+        "conns" : [],
+        "leaf" : {
+            "operador" : "equals",
+            "field" : "word",
+            "value" : "adios",
+            "tipo" : "String"
+        }
+    },
+    "action" : "FIELDS",
+    "actionFields" : [ 
+        "word", 
+        "count"
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "_id" : ObjectId("57d850ec19cdb736664ead20"),
+    "topic" : "topic-wordcountapp",
+    "desc" : "Aplicacion WordCountApp. Se suman las palabras de un mensaje de entrada",
+    "stages" : [ 
+        {
+            "stage" : "stage1",
+            "desc" : "Cada palabra del mensaje de entrada",
+            "fields" : [ 
+                {
+                    "name" : "word",
+                    "typ" : "String"
+                }
+            ]
+        }, 
+        {
+            "stage" : "stage2",
+            "desc" : "Cada palabra con el número de ocurrencias en el mensaje de entrada",
+            "fields" : [ 
+                {
+                    "name" : "word",
+                    "typ" : "String"
+                }, 
+                {
+                    "name" : "count",
+                    "typ" : "Integer"
+                }
+            ]
+        }
+    ]
+}

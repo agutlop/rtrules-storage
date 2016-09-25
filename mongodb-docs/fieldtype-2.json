@@ -1,0 +1,30 @@
+{
+    "_id" : "2",
+    "tipo" : "Integer",
+    "oper" : [ 
+        {
+            "cod" : "==",
+            "desc" : "igual a"
+        }, 
+        {
+            "cod" : ">=",
+            "desc" : "mayor o igual a"
+        }, 
+        {
+            "cod" : "<=",
+            "desc" : "menor o igual a"
+        }, 
+        {
+            "cod" : ">",
+            "desc" : "mayor que"
+        }, 
+        {
+            "cod" : "<",
+            "desc" : "menor que"
+        }, 
+        {
+            "cod" : "!=",
+            "desc" : "distinto de"
+        }
+    ]
+}

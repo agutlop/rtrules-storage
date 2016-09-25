@@ -1,0 +1,30 @@
+{
+    "_id" : "1",
+    "tipo" : "String",
+    "oper" : [ 
+        {
+            "cod" : "equals",
+            "desc" : "igual a"
+        }, 
+        {
+            "cod" : "not equals",
+            "desc" : "distinto a"
+        }, 
+        {
+            "cod" : "contains",
+            "desc" : "contiene a"
+        }, 
+        {
+            "cod" : "not contains",
+            "desc" : "no contiene a"
+        }, 
+        {
+            "cod" : "begins with",
+            "desc" : "comienza con"
+        }, 
+        {
+            "cod" : "ends with",
+            "desc" : "termina con"
+        }
+    ]
+}

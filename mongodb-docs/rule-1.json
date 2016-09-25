@@ -1,0 +1,21 @@
+{
+    "_id" : ObjectId("57d858b819cdb736664ead21"),
+    "name" : "WordApp - hola",
+    "desc" : "Encontrar palabra hola",
+    "topic" : "topic-wordapp",
+    "stage" : "stage1",
+    "flag" : true,
+    "user" : "default user",
+    "cond" : {
+        "op" : "LEAF",
+        "conns" : [],
+        "leaf" : {
+            "operador" : "equals",
+            "field" : "word",
+            "value" : "hola",
+            "tipo" : "String"
+        }
+    },
+    "action" : "MESSAGE",
+    "actionFields" : []
+}

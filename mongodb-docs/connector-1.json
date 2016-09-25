@@ -1,0 +1,7 @@
+{
+    "_id" : ObjectId("57af624255860306781169cc"),
+    "tipo" : "AND",
+    "desc" : "Operador lógico AND",
+    "conds" : 0.0,
+    "leaf" : 0.0
+}

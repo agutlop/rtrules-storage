@@ -1,0 +1,38 @@
+{
+    "_id" : ObjectId("57d8689b19cdb736664ead23"),
+    "name" : "WordApp",
+    "desc" : "Error finder",
+    "topic" : "topic-wordapp",
+    "stage" : "stage1",
+    "flag" : true,
+    "user" : "default user",
+    "cond" : {
+        "op" : "OR",
+        "conns" : [ 
+            {
+                "op" : "LEAF",
+                "conns" : [],
+                "leaf" : {
+                    "operador" : "equals",
+                    "field" : "word",
+                    "value" : "error",
+                    "tipo" : "String"
+                }
+            }, 
+            {
+                "op" : "LEAF",
+                "conns" : [],
+                "leaf" : {
+                    "operador" : "begins with",
+                    "field" : "word",
+                    "value" : "ERR",
+                    "tipo" : "String"
+                }
+            }
+        ]
+    },
+    "action" : "LITERALS",
+    "actionFields" : [ 
+        "Literal 1"
+    ]
+}

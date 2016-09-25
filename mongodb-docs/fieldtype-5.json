@@ -1,0 +1,30 @@
+{
+    "_id" : ObjectId("57e5a85002e5f58da5e0d291"),
+    "tipo" : "Date",
+    "oper" : [ 
+        {
+            "cod" : "==",
+            "desc" : "igual a"
+        }, 
+        {
+            "cod" : ">=",
+            "desc" : "mayor o igual a"
+        }, 
+        {
+            "cod" : "<=",
+            "desc" : "menor o igual a"
+        }, 
+        {
+            "cod" : ">",
+            "desc" : "mayor que"
+        }, 
+        {
+            "cod" : "<",
+            "desc" : "menor que"
+        }, 
+        {
+            "cod" : "!=",
+            "desc" : "distinto de"
+        }
+    ]
+}

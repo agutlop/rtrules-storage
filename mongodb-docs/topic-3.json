@@ -1,0 +1,117 @@
+{
+    "_id" : ObjectId("57e452f502e5f58da5e0d28f"),
+    "topic" : "topic-meetuprsvp",
+    "desc" : "Mensajes de respuesta a eventos de Meetup",
+    "stages" : [ 
+        {
+            "stage" : "stage1",
+            "desc" : "meetup rsvp raw data",
+            "fields" : [ 
+                {
+                    "name" : "rsvp_id",
+                    "typ" : "Long"
+                }, 
+                {
+                    "name" : "response",
+                    "typ" : "String"
+                }, 
+                {
+                    "name" : "guests",
+                    "typ" : "Integer"
+                }, 
+                {
+                    "name" : "mtime",
+                    "typ" : "Date"
+                }, 
+                {
+                    "name" : "visibility",
+                    "typ" : "String"
+                }, 
+                {
+                    "name" : "event.event_id",
+                    "typ" : "String"
+                }, 
+                {
+                    "name" : "event.event_name",
+                    "typ" : "String"
+                }, 
+                {
+                    "name" : "event.event_url",
+                    "typ" : "String"
+                }, 
+                {
+                    "name" : "event.time",
+                    "typ" : "Date"
+                }, 
+                {
+                    "name" : "group.group_id",
+                    "typ" : "Long"
+                }, 
+                {
+                    "name" : "group.group_name",
+                    "typ" : "String"
+                }, 
+                {
+                    "name" : "group.group_city",
+                    "typ" : "String"
+                }, 
+                {
+                    "name" : "group.group_country",
+                    "typ" : "String"
+                }, 
+                {
+                    "name" : "group.group_state",
+                    "typ" : "String"
+                }, 
+                {
+                    "name" : "group.group_urlname",
+                    "typ" : "String"
+                }, 
+                {
+                    "name" : "group.group_lat",
+                    "typ" : "Double"
+                }, 
+                {
+                    "name" : "group.group_lon",
+                    "typ" : "Double"
+                }, 
+                {
+                    "name" : "group.group_topics.topic_name",
+                    "typ" : "String"
+                }, 
+                {
+                    "name" : "group.group_topics.urlkey",
+                    "typ" : "String"
+                }, 
+                {
+                    "name" : "member.member_id",
+                    "typ" : "Long"
+                }, 
+                {
+                    "name" : "member.member_name",
+                    "typ" : "String"
+                }, 
+                {
+                    "name" : "member.photo",
+                    "typ" : "String"
+                }, 
+                {
+                    "name" : "venue.venue_id",
+                    "typ" : "Long"
+                }, 
+                {
+                    "name" : "venue.venue_name",
+                    "typ" : "String"
+                }, 
+                {
+                    "name" : "venue.lat",
+                    "typ" : "Double"
+                }, 
+                {
+                    "name" : "venue.lon",
+                    "typ" : "Double"
+                }
+            ]
+        }
+    ]
+}

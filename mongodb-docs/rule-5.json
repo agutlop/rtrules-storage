@@ -1,0 +1,38 @@
+{
+    "_id" : ObjectId("57e40fe602e5f58da5e0d28e"),
+    "name" : "wordcountapp - hola(4)",
+    "desc" : "Hola aparece mas de 4 veces",
+    "topic" : "topic-wordcountapp",
+    "stage" : "stage2",
+    "flag" : true,
+    "user" : "default_user",
+    "cond" : {
+        "op" : "AND",
+        "conns" : [ 
+            {
+                "op" : "LEAF",
+                "conns" : [],
+                "leaf" : {
+                    "operador" : "equals",
+                    "field" : "word",
+                    "value" : "hola",
+                    "tipo" : "String"
+                }
+            }, 
+            {
+                "op" : "LEAF",
+                "conns" : [],
+                "leaf" : {
+                    "operador" : ">",
+                    "field" : "count",
+                    "value" : "4",
+                    "tipo" : "Integer"
+                }
+            }
+        ]
+    },
+    "action" : "FIELDS",
+    "actionFields" : [ 
+        "count"
+    ]
+}
